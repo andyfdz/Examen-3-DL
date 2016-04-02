@@ -1,8 +1,11 @@
 class PagesController < ApplicationController
   def batman
   end
-  
-  def pag_nueva 
+
+  def superman 
+  end
+
+  def batman_vs_superman 
   end
 
 end

@@ -8,15 +8,19 @@
 
 	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="css/main.css">
-	<h3>Pages#batman</h3>
+	<h3>Pages#superman</h3>
 <p>Find me in app/views/pages/batman.html.erb</p>
 
 <h1>This looks like a job for Superman</h1>
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="js//bootstrap.min.js"></script>
-    <script src="js/jquery.backstretch.min.js"></script>
+    <script src="javascript/bootstrap.min.js"></script>
+    <script src="javascript/jquery.backstretch.min.js"></script>
     <script> jQuery.backstretch("images/superman.jpg");</script>
+
+    <%= image_tag 'superman.jpg'%>
+
+<%= yield %>
 
 </body>
 </html>
