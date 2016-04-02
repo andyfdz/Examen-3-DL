@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :users, only: [:create, :new]
+
+  get 'users/index'
+  get 'users/new'
   get 'pages/batman'
   get 'pages/superman'
   get 'pages/batman_vs_superman'

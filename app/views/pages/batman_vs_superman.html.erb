@@ -16,9 +16,13 @@
 <%= link_to "Superman", pages_superman_path %>
 </div>
 
-<!--<img src="images/super2.jpg" style="position: absolute; top: 0; left: 0; width: 50%; height: 50%" > -->
-
-<%= yield %>
+<%= form_for User.new do |f| %>
+    <%= f.label :heroe %>
+  <%= f.text_field :name %>
+  <%= f.label :email %>
+  <%= f.text_field :email %>
+  <%= f.submit %>
+<% end %>
 
 </body>
 </html>
