@@ -1,8 +1,8 @@
 class ExperimentsController < ApplicationController
-  def page1,
+  def page1
   end
 
-  def page2,
+  def page2
   end
 
   def page3
